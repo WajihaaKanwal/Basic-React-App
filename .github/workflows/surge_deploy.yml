@@ -43,4 +43,4 @@ jobs:
         run: npm install -g surge
         
       - name: Deploy to surge
-        run: surge ./build basicreactapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build basicreactapp-wajiha.surge.sh --token ${{secrets.SURGE_TOKEN}}
